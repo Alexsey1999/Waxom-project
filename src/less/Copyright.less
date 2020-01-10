@@ -1,0 +1,78 @@
+@import 'smart-grid.less';
+
+.copyright {
+  background: #111111;
+  height: 111px;
+  .lg-block({
+    margin-top: -2px;
+    });
+}
+
+.copyrightRow {
+  padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyrightRowItem {
+  span {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555555;
+    cursor: pointer;
+  }
+}
+
+.copyrightRowItem__copyrightWaxom {
+   &:hover > .waxom {
+    color: #ffffff;
+   }
+  .waxom {
+    transition: color .2s;
+    color: #959595;
+  }
+}
+
+
+.copyrightRowItem__verticalLine {
+  margin: 0 5px;
+}
+
+.copyrightRowItem__FAQ, 
+.copyrightRowItem__support, 
+.copyrightRowItem__privacyPolicy,
+.copyrightRowItem__copyrightWaxom,
+.copyrightRowItem__designedBy,
+.copyrightRowItem__onlyOn
+{
+  transition: color .2s;
+  &:hover {
+    color: #c7b299;
+  }
+}
+
+.copyrightRowItem__designedBy {
+  &:hover >  .themeFire {
+    color: #fff;
+  }
+  .themeFire {
+    transition: color .2s;
+    color: #959595;
+  }
+}
+
+.copyrightRowItem__onlyOn {
+  &:hover >  .envatoMarket {
+    color: #fff;
+  }
+  .envatoMarket {
+    transition: color .2s;
+    color: #959595;
+  }
+}
+
+
+
+
+

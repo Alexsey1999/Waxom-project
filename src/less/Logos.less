@@ -1,0 +1,45 @@
+@import 'smart-grid.less';
+
+.section9 {
+  background: url('../images/Logos/Section9Background.png') no-repeat center;
+  min-height: 624px;
+  .sm-block({
+      min-height: 600px;
+    });
+  .xs-block({
+      min-height: 480px;
+    });
+}
+
+.section9Row {
+  .row-flex();
+  .sm-block({
+      margin-left: 10px;
+    });
+  .xs-block({
+      padding-top: 130px;
+    });
+  justify-content: center;
+  text-align: center;
+  padding-top: 192px;
+}
+
+.section9RowItem {
+  .col();
+  .size(3);
+   margin-top: 45px;
+   &:nth-child(3) {
+    margin-top: 63px;
+  }
+  &:nth-child(2) {
+    margin-top: 23px;
+    margin-left: 20px;
+  }
+  &:nth-child(1) {
+    margin-top: 63px;
+    margin-left: -20px;
+  }
+}
+
+
+

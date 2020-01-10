@@ -1,0 +1,44 @@
+.section2 {
+  background: url('../images/Waxom is Realization of your Ideas/BackgroundSection2.png') no-repeat;
+  background-size: 91% 80%;
+  min-height: 622px;
+  background-position: center 136px;
+}
+@media screen and (max-width: 1024px) {
+  .section2 {
+    background-size: 95% 75%;
+    background-position: center 154px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section2 {
+    background-size: 95% 62%;
+    background-position: center 180px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section2 {
+    background-size: 100% 50%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .section2 .section__h1 {
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section2 .section__h1 {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section2 .section__descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section2 .section__descr {
+    padding: 0 90px;
+  }
+}

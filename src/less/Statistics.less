@@ -1,0 +1,50 @@
+@import 'smart-grid.less';
+
+.section7 {
+  margin-top: -9px;
+  margin-bottom: 77px;
+  padding: 68px 0 40px 0;
+  background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+  .lg-block({
+    margin-top: -27px;
+    });
+}
+
+.section7Row {
+  .row-flex();
+  justify-content: center;
+}
+
+.section7RowItem {
+  .col();
+  .size(2);
+  .size-sm(4);
+  margin-bottom: 20px;
+  text-align: center;
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    margin: 25px auto;
+  }
+}
+
+.section7RowItemNumber {
+  margin-top: 14px;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 200;
+  color: #fff;
+}
+
+.section7RowItemDescr {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #c7b299;
+}
+

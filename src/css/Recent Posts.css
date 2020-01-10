@@ -1,0 +1,198 @@
+.section8 .section__descr {
+  margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  .section8 .section__descr {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section8 .section__descr {
+    padding: 0 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section8 .section__h1 {
+    margin-top: -30px;
+  }
+}
+.section8Row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+.section8RowItem {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-top: 34px;
+  margin-bottom: 170px;
+  position: relative;
+}
+.section8RowItem:hover > .section8RowItemBg {
+  background: #362f2d;
+}
+.section8RowItem:hover > .section8Calendar .section8CalendarTop {
+  background: #c7b299;
+}
+.section8RowItem:hover > .section8Calendar .section8CalendarBottom {
+  background: #a48d72;
+}
+.section8RowItem:hover > .section8RowItemBg .section8RowItemBgH1 {
+  color: #c7b299;
+}
+.section8RowItem:hover > .section8RowItemBg .section8RowItemBgDescr {
+  color: #ffffff;
+}
+.section8RowItem:hover > .section8RowItemImg {
+  filter: brightness(0.6);
+}
+.section8RowItemImg {
+  transition: filter 0.2s;
+}
+.section8Calendar {
+  cursor: pointer;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  width: 50px;
+}
+.section8CalendarTop {
+  transition: background 0.2s;
+  box-sizing: border-box;
+  padding: 3px 0 3px 3px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 0 0 3px 3px;
+  height: 35px;
+  background: #363636;
+}
+.section8CalendarBottom {
+  transition: background 0.2s;
+  box-sizing: border-box;
+  padding: 6px 0 3px 4px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 0 0 3px 3px;
+  background-color: #252525;
+  height: 25px;
+}
+.section8Dots {
+  top: 84%;
+  left: 35%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.section8Dots__dot {
+  margin: 0 5px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  width: 11px;
+  height: 11px;
+  opacity: 0.3;
+}
+.section8Dots__dot:hover {
+  transform: scale(1.2);
+  background: transparent;
+  border: 2px solid #d3c1ad;
+  opacity: 1;
+  box-sizing: border-box;
+}
+.section8RowItemBg {
+  transition: background 0.2s;
+  height: 175px;
+  width: 100%;
+  position: absolute;
+  top: 97%;
+  left: 0;
+}
+.section8RowItemBgH1 {
+  transition: color 0.2s;
+  margin-left: 29px;
+  margin-top: 24px;
+  font-size: 20px;
+  color: #555555;
+  font-weight: 500;
+}
+.section8RowItemBgDescr {
+  transition: color 0.2s;
+  margin-left: 30px;
+  margin-top: 16px;
+  font-family: Montserrat;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.section8RowItemBgReadMore {
+  cursor: pointer;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 24px;
+  color: #c7b299;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+.section8RowItemBgReadMore::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 73.5%;
+  border-top: 4px solid transparent;
+  border-left: 6px solid #c7b299;
+  border-bottom: 4px solid transparent;
+}
+.section8ContainerForArrows {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+}
+@media screen and (max-width: 1024px) {
+  .section8ContainerForArrows {
+    display: none;
+  }
+}
+.far.fa-arrow-alt-circle-left {
+  color: #d1d1d1;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.far.fa-arrow-alt-circle-left:hover {
+  color: #c7b299;
+}
+.far.fa-arrow-alt-circle-right {
+  color: #c7b299;
+  cursor: pointer;
+}
+.section8RowItemBg-active {
+  background: #362f2d;
+}
+.section8RowItemBgDescr-active {
+  color: #ffffff;
+}
+.section8RowItemBgH1-active {
+  color: #c7b299;
+}
+.section8CalendarTop-active {
+  background: #c7b299;
+}
+.section8CalendarBottom-active {
+  background: #a48d72;
+}
+.section8Dots__dot-active {
+  transform: scale(1.2);
+  background: transparent;
+  border: 2px solid #d3c1ad;
+  opacity: 1;
+  box-sizing: border-box;
+}

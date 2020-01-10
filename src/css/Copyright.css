@@ -1,0 +1,61 @@
+.copyright {
+  background: #111111;
+  height: 111px;
+}
+@media screen and (max-width: 1280px) {
+  .copyright {
+    margin-top: -2px;
+  }
+}
+.copyrightRow {
+  padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyrightRowItem span {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555555;
+  cursor: pointer;
+}
+.copyrightRowItem__copyrightWaxom:hover > .waxom {
+  color: #ffffff;
+}
+.copyrightRowItem__copyrightWaxom .waxom {
+  transition: color 0.2s;
+  color: #959595;
+}
+.copyrightRowItem__verticalLine {
+  margin: 0 5px;
+}
+.copyrightRowItem__FAQ,
+.copyrightRowItem__support,
+.copyrightRowItem__privacyPolicy,
+.copyrightRowItem__copyrightWaxom,
+.copyrightRowItem__designedBy,
+.copyrightRowItem__onlyOn {
+  transition: color 0.2s;
+}
+.copyrightRowItem__FAQ:hover,
+.copyrightRowItem__support:hover,
+.copyrightRowItem__privacyPolicy:hover,
+.copyrightRowItem__copyrightWaxom:hover,
+.copyrightRowItem__designedBy:hover,
+.copyrightRowItem__onlyOn:hover {
+  color: #c7b299;
+}
+.copyrightRowItem__designedBy:hover > .themeFire {
+  color: #fff;
+}
+.copyrightRowItem__designedBy .themeFire {
+  transition: color 0.2s;
+  color: #959595;
+}
+.copyrightRowItem__onlyOn:hover > .envatoMarket {
+  color: #fff;
+}
+.copyrightRowItem__onlyOn .envatoMarket {
+  transition: color 0.2s;
+  color: #959595;
+}
